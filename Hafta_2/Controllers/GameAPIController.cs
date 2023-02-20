@@ -178,7 +178,7 @@ namespace Hafta_2.Controllers
             if (patchDTO == null || id == 0)
             {
                 return BadRequest(); //400
-            }
+            } 
 
             var game = _context.Games.FirstOrDefault(x => x.ID == id);
 
